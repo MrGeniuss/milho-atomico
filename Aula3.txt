@@ -1,0 +1,64 @@
+Programa:1
+void main(){
+  
+  String nome = "André";
+  String sobrenome = "Perolis";
+  int idade = 26;
+  String endereco = "São Jorge, 35, Anchieta, Porto Alegre, Rio Grande do Sul";
+    
+   print("Nome: $nome\n"
+        "Sobrenome: $sobrenome\n"
+        "Idade: $idade\n"
+        "Endereço: $endereco\n");
+  
+}
+
+Nota: Por algum motivo o Dartpad não me deixava escrever endeço com ç, por isso está escrito endere'c'o.
+
+Programa:2
+void main(){
+  
+  double entrada = 2.50;
+  int pessoas = 4;
+  double resultado = entrada * pessoas;
+  
+  print(resultado);
+  
+}
+
+Programa:3
+void main(){
+  
+  int basemaior = 30;
+  int basemenor = 14;
+  double altura = 22.5;
+  double area = ((basemaior + basemenor) * altura) /2;
+  
+  print(area);
+  
+}
+
+Programa:4
+void main(){
+  
+  int ladoquadrado1 = 30;
+  int ladoquadrado2 = 30;
+  int areaquadrado = ladoquadrado1 * ladoquadrado2;
+  
+  print(areaquadrado);
+  
+}
+
+Programa:5
+void main(){
+  
+  String nome1 = "Peter";
+  String nome2 = "Pierre";
+    
+    if(nome1 == nome2){
+      print("É a mesma pessoa");
+    }else{
+      print("Os nome não conferem");
+    }
+  
+}
