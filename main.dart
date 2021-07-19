@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:terceira_aula/Atividade.dart';
+import 'package:modelo_card/Imagem.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Atividade(),
+    home: LayoutImagem(),
+    debugShowCheckedModeBanner: false,
   ));
 }
